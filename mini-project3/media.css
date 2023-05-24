@@ -1,0 +1,241 @@
+@media (max-width: 380px) {
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@200;400;600&display=swap");
+
+  .nav-bar {
+    padding: 40px 20px;
+  }
+  .nav-bar img {
+    width: 20%;
+    margin-top: 10px;
+  }
+  .head {
+    width: 186%;
+    background-image: url(/images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    margin: -8px;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 130px;
+  }
+  .nav-bar button {
+    padding: 10px 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    position: relative;
+    left: 300px;
+    box-shadow: 0px 0px 2px 2px rgb(232, 230, 230);
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .nav-bar a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-bar button:hover {
+    opacity: 0.5;
+  }
+  .nav-bar button:active {
+    opacity: 0.2;
+  }
+  .container1 {
+    padding: 10px 10px;
+    margin-top: 10px;
+    display: block;
+  }
+  .container1 p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .container1 h1 {
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .container1 img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 65px;
+    margin-top: 40px;
+  }
+  .container1 .sec1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .container1 button {
+    padding: 20px 55px;
+    margin: 30px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    font-weight: 600;
+  }
+  .container1 a,
+  .start a {
+    text-decoration: none;
+    color: rgb(249, 247, 247);
+  }
+  .container1 button:hover,
+  .start button:hover {
+    opacity: 0.8;
+  }
+  .container1 button:active,
+  .start button:active {
+    opacity: 0.5;
+    color: blueviolet;
+  }
+  .all p {
+    display: block;
+    margin: auto;
+    font-family: Open sans, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(124, 123, 123);
+    width: 80%;
+   
+
+  }
+  .all h1 {
+    font-family: Open sans, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .body1 ,.body2, .body3{
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 2px 2px rgb(232, 230, 230);
+    width: 155%;
+    height: 600px;
+    margin-bottom: 28px;
+    margin-left: 38px;
+  }
+  br{
+    display: none;
+  }
+  .body1 .sec1 ,.body3 .sec1 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    order: 2;
+  }
+  .body2 .sec2{
+  display: block;
+  margin: auto;
+  text-align: center;
+  }
+  
+  .body1 img ,.body2 img, .body3 img{
+    display: block;
+    margin: auto;
+    width: 60%;
+  }
+  .start {
+    display: block;
+    margin: auto;
+    text-align: center;
+    height: 270px;
+    box-shadow: 0px 0px 2px 2px rgb(232, 230, 230);
+    background-color: #fff;
+    border-radius: 10px;
+    width: 170%;
+    position: relative;
+    top: 150px;
+    left: 20px;
+    
+    
+  }
+  .start  h1 {
+    font-size: 35px;
+  }
+  .start .content{
+    position: relative;
+    top: 60px;
+    width: 100%;
+    
+  }
+  .start button{
+    padding: 25px 90px;
+    margin-top: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+  }
+  footer{
+    margin: -8px;
+    background-color:hsl(192, 100%,9%) ;
+    color: white;
+    margin-top: 3rem;
+    width: 186%;
+  }
+  footer .inside img{
+    float: left;
+    margin-right: 8px;
+    width: 4%;
+    margin-top: 10px;
+    margin-left: 15px;
+  }
+  footer .sec1 p{
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+  footer .pip{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+  }
+  footer a {
+    text-decoration: none;
+    color :#fff;
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+  footer .sec1{
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 170px;
+    margin-bottom: 50px;
+    font-family: Open sans, sans-serif;
+  }
+  footer .sec2, footer .sec3{
+    font-size: 22px;
+    font-family: Open sans, sans-serif;
+    margin-left: 25px;
+    margin-bottom: -20px;
+  }
+  footer .sec3 {
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  footer i {
+    margin-right: 20px;
+    margin-top: 160px;
+    width: 20%;
+  }
+  footer i:hover{
+    color:hsl(322, 100%, 66%) ;
+  }
+  .fa-facebook{
+    margin-left: 20px;
+  }
+  
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+  
+}
